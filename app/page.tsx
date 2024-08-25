@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Logo from "@/public/logo.svg";
-import Bg from "@/public/bg.jpg";
 
 export default function Home() {
   return (
@@ -34,15 +33,6 @@ export default function Home() {
           </div>
         </section>
       </div>
-
-      <Image
-        className="absolute left-0 right-0 top-0 -z-50 h-screen w-screen opacity-60 grayscale"
-        src={Bg}
-        width={1280}
-        height={1280}
-        placeholder="blur"
-        alt="background of zion.surf"
-      ></Image>
     </main>
   );
 }
